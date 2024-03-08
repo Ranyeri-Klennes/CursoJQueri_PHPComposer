@@ -1,0 +1,19 @@
+{
+    "name": "pkgname/composer",
+    "description": "Estudando Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pkgname\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ranyeri Klennes",
+            "email": "ranyeri_r.k@hotmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^6.1"
+    }
+}
